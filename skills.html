@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sajudin Ma'ruf</title>
+    <link rel="shortcut icon" href="IMG/title-modified.png">
+    <meta name="robots" content="noindex">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="js/mode.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Pacifico&family=Poppins:wght@400;500;600&family=Source+Code+Pro:wght@200;300;400;500;600;700&family=Ubuntu+Mono:wght@400;700&family=Wix+Madefor+Display:wght@400;500;600&display=swap" rel="stylesheet">  
+  </head>
+    <body id="particles-js" class="bg-secondary-subtle">
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg shadow-sm bg-light-subtle" id="animation">
+          <div class="container-fluid h-75">
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon fs-6"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+              <div class="offcanvas-header">
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav flex-grow-1" id="navbar">
+                <li class="nav-item me-1 fw-bold">
+                  <a class="nav-link text-hover rounded-3" href="index.html">Home</a>
+                </li>
+                <li class="nav-item me-1 fw-bold">
+                  <a class="nav-link text-hover rounded-3" href="skills.html">Skills</a>
+                </li>
+                <li class="nav-item me-1 fw-bold">
+                  <a class="nav-link text-hover rounded-3" href="projects.html">Projects</a>
+                </li>
+                <li class="nav-item me-1 fw-bold">
+                  <a class="nav-link text-hover rounded-3" href="contact.html">Contact</a>
+                </li>
+              </ul>
+              
+            </div>
+          </div>
+          <div class="nav-item dropdown" id="mode">
+            <button class="btn nav-link dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="bi bi-sun-fill theme-icon-active" data-theme-icon-active="bi-sun-fill"></i>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end">
+              <li><button class="dropdown-item d-flex align-items-center" type="button" data-bs-theme-value="light">
+                <i class="bi bi-sun-fill me-2" data-theme-icon="bi-sun-fill">
+                  Light
+                </i></button></li>
+              <li><button class="dropdown-item d-flex align-items-center" type="button" data-bs-theme-value="dark">
+                <i class="bi bi-moon-fill me-2" data-theme-icon="bi-moon-fill">
+                  Dark
+                </i></button></li>
+            </ul>
+          </div>
+        </nav>
+          <!-- end navbar -->
+
+         <!-- skills -->
+         <section class=" position-absolute start-0 end-0" id="anim">
+              <h1 class="text-start ms-5 mt-5 fw-bold border-5 border-primary border-start mb-5">Skills</h1>
+        <ul class="nav nav-pills mb-3 d-flex justify-content-start align-items-start ms-5" id="pills-tab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link fw-bold active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Tech</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link fw-bold" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Frameworks</button>
+          </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+          <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+            <div class="container text-center position-absolute start-0 end-0">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+              <div class="form p-5 text-center ms-auto border shadow-sm rounded-5 bg-light-subtle" id="html-form">
+                <div class="col"><img src="IMG/html-5.png" alt="html-5" id="icon"></div>
+              </div>
+              <div class="form p-5 text-center ms-auto border shadow-sm rounded-5 bg-light-subtle" id="css-form">
+                <div class="col"><img src="IMG/css-3.png" alt="css" id="icon"></div>
+              </div>
+              <div class="form p-5 text-center ms-auto border shadow-sm rounded-5 bg-light-subtle" id="js-form">
+                <div class="col"><img src="IMG/js.png" alt="javascript" id="icon"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+          <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+            <div class="container text-center position-absolute start-0 end-0">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+              <div class="form p-5 me-auto rounded-5 border shadow-sm bg-light-subtle" id="boots-form">
+                <div class="col"><img src="IMG/bootstrap.png" alt="bootstrap" id="icon"></div>
+            </div>
+              <div class="form p-5 text-center ms-auto rounded-5 border shadow-sm bg-light-subtle" id="tail-form">
+                <div class="col"><img src="IMG/Tailwind CSS.png" alt="tailwind" id="icon"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </section>
+         <!-- end skills -->
+
+          <!-- footer -->
+          <div class="py-3 px-lg-5 d-flex text-center justify-content-center w-100 shadow-lg position-fixed bottom-0 bg-light-subtle" id="footer">
+            <div class="container" id="foot">
+              <a href="https://www.flaticon.com/authors/freepik" class="text-decoration-underline text-dark-emphasis">Icons created by Freepik Flaticon - </a>
+                <a href="https://techicons.dev/icons/tailwindcss" title="tailwind icon" class="text-decoration-underline text-dark-emphasis">Tailwind icon by TechIcons</a>
+            </div>
+          </div>    
+          <!-- end footer -->
+
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+          <script src="js/particles.js"></script>
+          <script src="js/app.js"></script>
+          <script src="js/script.js"></script>
+          <script src="js/vercel.js"></script>
+        </body>
+</html>
