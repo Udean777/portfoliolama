@@ -2,7 +2,7 @@ function sleep(ms){
     return new Promise((resolve) => setTimeout(resolve, ms))
 }
 
-const phrases = ['Front End Dev', 'UI/UX Designer']
+const phrases = ['Front End Dev']
 const el = document.getElementById('typewriter')
 
 let sleepTime = 100
